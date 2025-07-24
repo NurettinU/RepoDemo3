@@ -8,6 +8,7 @@ VAR
 	nC3: INT;
 	nC4: INT;
 	nC5: INT;
+	nC6: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -15,7 +16,8 @@ END_VAR
 nC2:=nC2+1;
 nC3:=nC3+1;
 nC4:=nC4+1;
-nC5:=nC5+1;]]></ST>
+nC5:=nC5+1;
+nC6:=nC6+1;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
