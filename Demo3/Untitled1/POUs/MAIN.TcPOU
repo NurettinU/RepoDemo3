@@ -5,11 +5,14 @@
 VAR
 	nC: INT;
 	nC2: INT;
+	nC10: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[nC:=nC+1;
-nC2:=nC2+1;]]></ST>
+nC2:=nC2+1;
+nC10:=nC10+1;
+]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
