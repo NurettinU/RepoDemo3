@@ -4,11 +4,12 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	nC: INT;
+	nC2: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[nC:=nC+1;
-]]></ST>
+nC2:=nC2+1;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
